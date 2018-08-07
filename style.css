@@ -688,6 +688,8 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: #444;
+
 }
 
 /* Small menu. */
@@ -1015,3 +1017,16 @@ object {
 
 .mt-header {margin-top: 10px;}
 .pad-menu {padding : 10px;}
+
+
+
+/******* FONT ********/ 
+
+.playfair {font-family: 'Playfair Display', serif ;}
+.noto     {font-family: 'Noto Sans', sans-serif   ;}
+
+.playfair-regular {font-weight: 400 ;}
+.playfair-bold    {font-weight: 700 ;}
+
+.noto-regular {font-weight: 400 ;}
+.noto-bold    {font-weight: 700 ;}
