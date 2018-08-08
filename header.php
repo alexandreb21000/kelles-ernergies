@@ -58,8 +58,8 @@
 
 	<div id="content" class="site-content">
 
-	<div class="  w-1200 m-auto d-flex jc-end m-social line-header">
-		<a href=""><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/facebook_logo.jpg" alt="test"></a>
+	<div class="w-1200 m-auto d-flex jc-end m-icon line-header mb-social">
+		<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/facebook_logo.jpg" alt="test"></a>
 		<a href=""><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/insta_logo.jpg" alt="test"></a>
 		
 		
