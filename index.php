@@ -15,16 +15,37 @@
 get_header();
 ?>
 
-	<div class="w-1200 m-auto">
+	<div class="w-1200 m-auto d-flex jc-center">
 
-		<div class="w-33 color-purple">
-			<p class="txt-orientation color-title">K'ELLES ENERGIES</p>
+		<div class="w-20 color-purple d-flex jc-center">
+
+			<p class="rotated color-title playfair fs32 m-none txt-center ">K'ELLES ENERGIES</p>
+		</div>
+		<div class="w-80 d-flex ">
+			<div class="p-contenu">
+				<h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
+				<p class="txt-center playfair fs24">Lorem Ipsum</p>
+				<hr width="40%">
+				<p class="txt-justify noto fs15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
+				Vestibulum consequat commodo metus a mollis. Etiam at tellus eget ex imperdiet sagittis quis at ligula. 
+				Nulla sit amet nisl nunc. Nullam placerat ipsum id purus aliquet feugiat. Integer tempor felis libero, 
+				at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
+				 Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
+				
+				</p>
+			</div>
+			<div>
+				<img src="/wordpress/wp-content/themes/kelles-energies/img/intro_home.jpg" alt="">
+			</div>
 		</div>
 		
 	</div>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+	<div class="w-1200 m-auto d-flex jc-center">
+
+		<div class="w-80 d-flex ">
+		<div id="primary" class="content-area">
+		<main id="main" class="site-main d-flex">
 
 		<?php
 		if ( have_posts() ) :
@@ -62,6 +83,15 @@ get_header();
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+		<div class="w-20 color-purple d-flex jc-center">
+			<p class="rotated color-title playfair ft-20 m-none txt-center ">ACTUALITE</p>
+		</div>
+
+	</div>
+
+
+	
+
 <?php
-get_sidebar();
+/* get_sidebar(); */
 get_footer();

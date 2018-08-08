@@ -12,23 +12,28 @@
 ?>
 
 	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
+<div class="bg-footer p-contenu">
+	<footer id="colophon" class="site-footer w-1200 m-auto d-flex jc-between ai-ceter">
+		<div class="d-flex flex-col txt-center">
 		<?php the_custom_logo(); ?>
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'kelles-energies' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'kelles-energies' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'kelles-energies' ), 'kelles-energies', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
+			<div class="site-info d-flex flex-col noto ft-8 color-footer">
+					<?php
+					/* translators: %s: CMS name, i.e. WordPress. */
+					printf( esc_html__( 'Copyright KELLES ENERGIES 2018', 'kelles-energies' ), 'WordPress' );
+					?>
+			</div>
+		</div>
+
+		<div class="d-flex ai-end">
+			<div class="d-flex ai-center">
+				<p>Mention Légales</p>
+				<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/facebook_logo.jpg" alt="test"></a>
+				<a href=""><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/insta_logo.jpg" alt="test"></a>
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+
+</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
