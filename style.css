@@ -441,6 +441,7 @@ big {
 --------------------------------------------------------------*/
 html {
 	box-sizing: border-box;
+	font-size:62.5%;
 }
 
 *,
@@ -994,6 +995,10 @@ object {
 
 .bg-header { background-color: #fff;}
 .bg-footer { background-color: #F7F7F7;}
+.bg-header{ background-color: #fff;}
+
+.bgcolor1{background-color: red;}
+.bgcolor2{background-color: blue;}
 
 .color-txt    {color: #444      ;}
 .color-pink   {color: #E4388C   ;}
@@ -1038,19 +1043,95 @@ object {
 .txt-center  { text-align: center  ;}
 .txt-justify { text-align: justify ;}
 
-.ft-20 { font-size: 2.0rem ;}
-.ft-13 { font-size: 1.3rem ;}
-.ft-9  { font-size: 0.9rem ;}
-.ft-8  {font-size: 0.8rem  ;}
 
+
+/* ---------------- LOAN ---------------- */
+
+
+/* ---------------- Fonts ---------------- */
+
+			.bold{font-weight:700;}
+            .fs80{font-size:8rem;}
+            .fs60{font-size:6rem;}
+            .fs40{font-size:4rem;}
+            .fs36{font-size:3.6rem;}
+            .fs32{font-size:3.2rem;}
+            .fs24{font-size:2.4rem;}
+            .fs20{font-size:2rem;}
+            .fs18{font-size:1.8rem;}
+			.fs15{font-size:1.5rem;}
+			
+
+/* ---------------- Colors ---------------- */
+
+.color1{color:#fff !important;}
+
+/* ---------------- Tailles ---------------- */
+
+	.h100vh{height:100vh;}
+
+
+
+/* ---------------- Split ---------------- */
+
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+	left: 0;
+	background: url('img/women_street') center no-repeat;
+	background-size:cover;
+  }
+  
+  /* Control the right side */
+  .right {
+	right: 0;
+	background: url('img/women_office.jpg') center no-repeat;
+	background-size:cover;
+  }
+  
+  .left:hover, .right:hover{filter:grayscale(100%);
+filter:pink;
+transition: all 1s ease;}
+
+
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+	width: 150px;
+	border-radius: 50%;
+  }
+
+
+  /* ---------------- Ecriture verticale ---------------- */
+  .rotated{
+	writing-mode: tb-rl;
+	transform: rotate(-180deg);
+	}
+
+
+	.nodeco{text-decoration: none;}
+	
 /********  STYLE  ********/
 
 .line-header { border-top: 1px solid #000 ;}
 .m-auto {margin: 0 auto;}
-.txt-orientation {
-	writing-mode: tb-rl;
-	transform: rotate(-180deg);
-	}
 
 
 

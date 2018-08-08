@@ -19,14 +19,14 @@ get_header();
 
 		<div class="w-20 color-purple d-flex jc-center">
 
-			<p class="txt-orientation color-title playfair ft-20 m-none txt-center ">K'ELLES ENERGIES</p>
+			<p class="rotated color-title playfair fs32 m-none txt-center ">K'ELLES ENERGIES</p>
 		</div>
 		<div class="w-80 d-flex ">
 			<div class="p-contenu">
-				<h2 class="txt-center playfair ft-20">LOREM IPSUM</h2>
-				<p class="txt-center playfair ft-13">Lorem Ipsum</p>
+				<h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
+				<p class="txt-center playfair fs24">Lorem Ipsum</p>
 				<hr width="40%">
-				<p class="txt-justify noto ft-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
+				<p class="txt-justify noto fs15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
 				Vestibulum consequat commodo metus a mollis. Etiam at tellus eget ex imperdiet sagittis quis at ligula. 
 				Nulla sit amet nisl nunc. Nullam placerat ipsum id purus aliquet feugiat. Integer tempor felis libero, 
 				at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
@@ -84,7 +84,7 @@ get_header();
 	</div><!-- #primary -->
 
 		<div class="w-20 color-purple d-flex jc-center">
-			<p class="txt-orientation color-title playfair ft-20 m-none txt-center ">ACTUALITE</p>
+			<p class="rotated color-title playfair ft-20 m-none txt-center ">ACTUALITE</p>
 		</div>
 
 	</div>
