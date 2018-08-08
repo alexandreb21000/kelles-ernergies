@@ -15,6 +15,14 @@
 get_header();
 ?>
 
+	<div class="w-1200 m-auto">
+
+		<div class="w-33 color-purple">
+			<p class="txt-orientation color-title">K'ELLES ENERGIES</p>
+		</div>
+		
+	</div>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 

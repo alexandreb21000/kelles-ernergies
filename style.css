@@ -57,6 +57,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
+	
 }
 
 /* Sections
@@ -641,6 +642,7 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	
+	
 }
 
 .main-navigation ul {
@@ -681,7 +683,10 @@ a:hover, a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
-	margin-left: 10px;
+	margin-left: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	font-size: 0.9rem
 	
 }
 
@@ -823,6 +828,41 @@ a:hover, a:active {
 	clear: both;
 }
 
+/* Pour supprimer les espaces vides pour que le space-between se fasse complètement */ 
+.btn-group-vertical>.btn-group:after, 
+.btn-group-vertical>.btn-group:before, 
+.btn-toolbar:after, 
+.btn-toolbar:before, 
+.clearfix:after, 
+.clearfix:before, 
+.container-fluid:after, 
+.container-fluid:before, 
+.container:after, 
+.container:before, 
+.dl-horizontal dd:after, 
+.dl-horizontal dd:before, 
+.form-horizontal .form-group:after, 
+.form-horizontal .form-group:before, 
+.modal-footer:after, 
+.modal-footer:before, 
+.modal-header:after, 
+.modal-header:before, 
+.nav:after, 
+.nav:before, 
+.navbar-collapse:after, 
+.navbar-collapse:before, 
+.navbar-header:after, 
+.navbar-header:before, 
+.navbar:after, 
+.navbar:before, 
+.pager:after, 
+.pager:before, 
+.panel-body:after, 
+.panel-body:before, 
+.row:after, 
+.row:before {
+	content: none;
+ }
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
@@ -995,9 +1035,21 @@ object {
 
 /****** HEIGHT & WIDTH ********/ 
 
-.h-header {height: 100px;}
+.w-1200   {  width: 1200px  ;}
+.w-33     {  width: 33%     ;}
+.w-66     {  width: 66%     ;}
+.w-header {  width: 100%    ;}
 
-.w-header {width : 100%;}
+
+
+
+.h-header {  height: 100px  ;}
+
+.social_media {
+	height: 25px;
+	width: 25px;
+	}
+
 
 
 
@@ -1005,19 +1057,25 @@ object {
 
 .bg-header{ background-color: #fff;}
 
-.color-txt {color: #444;}
+.color-txt    {color: #444      ;}
+.color-pink   {color: #E4388C   ;}
+.color-purple {background-color: #6C556F   ;}
+.color-grey   {color: #707070   ;}
+.color-title  {color: #fff       ;}
 
 /******* DISPLAY ********/ 
 
-.d-flex {display: flex;}
-.jc-around{justify-content: space-around;}
-.ai-center {align-items: center;}
+.d-flex      {display: flex                    ;}
+.jc-between  {justify-content: space-between   ;}
+.jc-end      {justify-content: flex-end        ;}
+.ai-center   {align-items: center              ;}
+
 
 /******* PADDING & MARGIN ********/ 
 
-.mt-header {margin-top: 10px;}
-.pad-menu {padding : 10px;}
-
+.m-header  {  margin : 10px 60px 0 60px  ;}
+.m-social  {  margin : 0 60px            ;}
+.m-icon    {  margin : 10px 0 0 30px     ;}
 
 
 /******* FONT ********/ 
@@ -1030,3 +1088,14 @@ object {
 
 .noto-regular {font-weight: 400 ;}
 .noto-bold    {font-weight: 700 ;}
+
+/********  STYLE  ********/
+
+.line-header { border-top: 1px solid #000 ;}
+.m-auto {margin: 0 auto;}
+.txt-orientation {
+	transform: rotate(-90deg);
+	}
+
+
+
