@@ -1225,7 +1225,8 @@ background-size:cover;
 		height: 51%;
 		width: 100%;
 	}
-	.marginSplit{margin-top:67%;}
+	.marginSplit{top:auto;
+		bottom:0;}
 
 	.fs90-sm{font-size:9rem;}
 	.fs160-sm{font-size:16rem;}
@@ -1246,7 +1247,8 @@ background-size:cover;
 		height: 50%;
 		width: 100%;
 	}
-	.marginSplit{margin-top:89%;}
+	.marginSplit{top:auto;
+		bottom:0;}
 
 	.fs90-sm{font-size:9rem;}
 	.fs160-sm{font-size:16rem;}
