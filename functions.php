@@ -120,9 +120,11 @@ add_action( 'widgets_init', 'kelles_energies_widgets_init' );
  * Enqueue scripts and styles.
  */
 function kelles_energies_scripts() {
+	
 	wp_enqueue_style( 'kelles-energies-style', get_stylesheet_uri() );
-
+	
 	wp_enqueue_script( 'kelles-energies-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	
 
 	wp_enqueue_script( 'kelles-energies-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -159,3 +161,18 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+
+function wbci_enqueue_js_css () {
+  global $post;
+  $post_bootstrap_include_value = get_post_meta($post->ID, 'wp-bootstrap-include', true);
+  if (in_array($post_bootstrap_include_value, array('true', 'on', 'yes')) ) {
+    wp_register_style( 'css/bootstrap-css', plugins_url('bootstrap.css', __FILE__) );
+    wp_register_style( 'css/bootstrap-responsive-css', plugins_url('bootstrap-responsive.css', __FILE__) );
+    wp_enqueue_style('bootstrap-css');
+    wp_enqueue_style('bootstrap-responsive-css');
+
+    wp_enqueue_script('bootstrap-js', plugins_url('js/bootstrap.js', __FILE__), array('jquery'), null, true);
+  }
+}
+add_action('wp_enqueue_scripts', 'wbci_enqueue_js_css');
