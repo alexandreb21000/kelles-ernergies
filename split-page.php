@@ -16,7 +16,7 @@
     </div>
   </div>
 
-  <div class="split right marginSplit">
+  <div class="split right responsiveSplit">
     <div class="centered">
       <h2 class="rotated playfair color1 h2-sm">
         <a href="http://www.kelles-energies-franche-comte.fr/" class="nodeco color1">
