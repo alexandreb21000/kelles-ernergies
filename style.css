@@ -979,7 +979,10 @@ object {
 /****** HEIGHT & WIDTH ********/ 
 
 .w-1200   {  width: 1200px  ;}
+.w-15	  {  width: 15%     ;}
 .w-20     {  width: 20%     ;}
+.w-33	  {  width: 33%     ;}
+.w-60	  {  width: 60%     ;}
 .w-80     {  width: 80%     ;}
 .w-header {  width: 100%    ;}
 
@@ -1055,9 +1058,24 @@ object {
 
 /* ---------------- LOAN ---------------- */
 
+.grid{display:flex;
+flex-wrap:wrap;
+justify-content: space-around;
+}
+.cell{flex: 0 0 32%;
+padding:10px;
+margin-top: 5px;}
+.pinkBorder{border: #E4388C 1px solid;
+}
+img.cell.pinkBorder {
+	width: 60px;
+	height:120px;
+}
 
-.flex{display:flex;}
-.spacing20{letter-spacing: 5px;}
+.noscroll{overflow: hidden;}
+
+.home header, .home .mb-social {display:none;}
+
 
 /* ---------------- Fonts ---------------- */
 
@@ -1195,6 +1213,18 @@ object {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+
+	.fs80-sm{font-size:6.4rem;}
+    .fs60-sm{font-size:4.8rem;}
+    .fs40-sm{font-size:3.2rem;}
+    .fs36-sm{font-size:2.9rem;}
+    .fs32-sm{font-size:2.6rem;}
+    .fs24-sm{font-size:1.9rem;}
+    .fs20-sm{font-size:1.6rem;}
+    .fs18-sm{font-size:1.4rem;}
+	.fs15-sm{font-size:1.2rem;}
+	
+
 	.split{
 		height: 50%;
 		width: 100%;
@@ -1205,8 +1235,7 @@ object {
 		bottom:0;
 	}
 
-	.fs90-sm{font-size:9rem;}
-	.fs160-sm{font-size:16rem;}
+	
 
 	.block-on-med-and-down{display: block;}
     /* Annulation des classes appliquées au H2 en large-screen */

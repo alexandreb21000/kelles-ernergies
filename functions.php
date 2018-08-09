@@ -7,6 +7,10 @@
  * @package Kelles_Energies
  */
 
+if( !defined(THEME_IMG_PATH)){
+	define( 'THEME_IMG_PATH', get_stylesheet_directory_uri() . '/img' );
+   }
+
 if ( ! function_exists( 'kelles_energies_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.

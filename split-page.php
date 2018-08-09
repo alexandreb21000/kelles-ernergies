@@ -7,10 +7,10 @@
     <div class="centered">
       <h2 class="rotated playfair color1 h2-sm">
         <a href="http://www.kelles-energies-bourgogne.fr/" class="nodeco color1">
-        <span class="fs40 fs90-sm">K'ELLES ENERGIES</span>
+        <span class="fs40 fs40-sm">K'ELLES&nbsp;ENERGIES</span>
 
           <br>
-          <span class="fs60 fs160-sm spacing20">BOURGOGNE</span>
+          <span class="fs60 fs60-sm spacing20">BOURGOGNE</span>
         </a>          
       </h2>
     </div>
@@ -20,9 +20,9 @@
     <div class="centered">
       <h2 class="rotated playfair color1 h2-sm">
         <a href="http://www.kelles-energies-franche-comte.fr/" class="nodeco color1">
-          <span class="fs40 fs90-sm">K'ELLES ENERGIES</span>
+          <span class="fs40 fs40-sm">K'ELLES&nbsp;ENERGIES</span>
             <br>
-          <span class="fs60 fs160-sm">FRANCHE-COMTE</span>
+          <span class="fs60 fs60-sm">FRANCHE&nbsp;-&nbsp;COMTE</span>
         </a>
       </h2>
     </div>
