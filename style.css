@@ -1064,6 +1064,7 @@ background-color:#fff !important;}
 
 /* ---------------- Spécifiques ---------------- */
 
+
 			.noDisplay-lg{display:none;}
 			.grid{display:flex;
 			flex-wrap:wrap;
@@ -1117,10 +1118,16 @@ background-color:#fff !important;}
 			.color3{color:#6C556F;}
 			.color4{color:#fff !important;}
 
+			.bgcolor1 {background-color: #F7F7F7;}
+
+
 /* ---------------- Tailles & Margins & Paddings ---------------- */
 
 			.h100vh{height:100vh;}
+			.h150p{height:150px;}
 
+
+			.lineh150p{line-height: 150px;}
 
 
 
@@ -1135,14 +1142,12 @@ background-color:#fff !important;}
 				padding-top: 20px;
 			}
 			
-			/* Control the left side */
 			.left {
 			left: 0;
 			background: url('img/women_street.jpg') center no-repeat;
 			background-size:cover;
 			}
 
-			/* Control the right side */
 			.right {
 			right: 0;
 			background: url('img/women_office.jpg') center no-repeat;
@@ -1169,7 +1174,6 @@ background-color:#fff !important;}
 				background-size:cover;}
 				
 					
-			/* If you want the content centered horizontally and vertically */
 			.centered {
 				position: absolute;
 				top: 50%;
@@ -1178,7 +1182,6 @@ background-color:#fff !important;}
 				text-align: center;
 			}
 			
-			/* Style the image inside the centered container, if needed */
 			.centered img {
 				width: 150px;
 				border-radius: 50%;
@@ -1239,12 +1242,9 @@ background-color:#fff !important;}
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
+			.center-sm{margin: 0 auto;}
+			.w-80-sm{width:80%;}
 
-
-			/* Fonts */
-
-			.fs36-sm{font-size:3.6rem;}
-			
 			/* Fonts réduites de 20% */
 
 			.fs80-sm{font-size:6.4rem;}
