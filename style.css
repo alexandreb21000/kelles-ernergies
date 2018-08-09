@@ -647,7 +647,7 @@ a:hover, a:active {
 	margin-left: 20px;
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: 700;
-	font-size: 0.9rem
+	font-size: 1.5rem
 	
 }
 
@@ -678,13 +678,21 @@ a:hover, a:active {
 .post-navigation {
 	margin: 0 0 1.5em;
 	overflow: hidden;
+	
 }
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
 	float: left;
-	width: 50%;
+	width: 100%;
+	padding: 10px;
+}
+
+.nav-previous a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem
 }
 
 .comment-navigation .nav-next,
@@ -692,7 +700,7 @@ a:hover, a:active {
 .post-navigation .nav-next {
 	float: right;
 	text-align: right;
-	width: 50%;
+	width: 100%;
 
 }
 
@@ -748,30 +756,9 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-.clear:before,
-.clear:after,
-.entry-content:before,
-.entry-content:after,
-.comment-content:before,
-.comment-content:after,
-.site-header:before,
-.site-header:after,
-.site-content:before,
-.site-content:after,
-.site-footer:before,
-.site-footer:after {
-	display: table;
-	table-layout: fixed;
-}
 
-.clear:after,
-.entry-content:after,
-.comment-content:after,
-.site-header:after,
-.site-content:after,
-.site-footer:after {
-	clear: both;
-}
+
+
 
 /* Pour supprimer les espaces vides pour que le space-between se fasse complètement */ 
 .btn-group-vertical>.btn-group:after, 
@@ -976,15 +963,38 @@ object {
 			CSS PERSO 
 ********************************/
 
+.line-header { border-top: 1px solid #000 ;}
+
+hr {border-bottom: solid 2px #E4388C;}
+
+button {
+	background-color: #6C556F;
+	margin-top: 20px;
+	}
+
+.entry-meta a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.entry-title a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.nodeco{text-decoration: none;}
 
 /****** HEIGHT & WIDTH ********/ 
 
 .w-1200   {  width: 1200px  ;}
 .w-20     {  width: 20%     ;}
 .w-80     {  width: 80%     ;}
+.w-100    {  width: 100%    ;}
+.w-33     {  width: 33%     ;}
 .w-header {  width: 100%    ;}
 
 .h-header {  height: 100px  ;}
+.h100vh   {  height:100vh   ;}
 
 .social_media {
 	height: 25px;
@@ -995,22 +1005,23 @@ object {
 
 .bg-header { background-color: #fff;}
 .bg-footer { background-color: #F7F7F7;}
-.bg-header{ background-color: #fff;}
 
-.bgcolor1{background-color: red;}
-.bgcolor2{background-color: blue;}
 
-.color-txt    {color: #444      ;}
-.color-pink   {color: #E4388C   ;}
-.color-purple {background-color: #6C556F   ;}
-.color-grey   {color: #707070   ;}
-.color-title  {color: #fff       ;}
-.color-footer {color: #B1B1B1}
+
+.color-purple {  background-color: #6C556F   ;}
+
+.color1       { color:#fff       ;}
+.color-txt    { color: #444      ;}
+.color-pink   { color: #E4388C   ;}
+.color-grey   { color: #707070   ;}
+.color-title  { color: #fff      ;}
+.color-footer { color: #B1B1B1   ;}
 
 /******* DISPLAY ********/ 
 
 .d-flex      {display: flex                    ;}
 .jc-between  {justify-content: space-between   ;}
+.jc-around   {justify-content: space-around    ;}
 .jc-end      {justify-content: flex-end        ;}
 .jc-center   {justify-content: center          ;}
 .ai-center   {align-items: center              ;}
@@ -1020,29 +1031,37 @@ object {
 
 /******* PADDING & MARGIN ********/ 
 
-.m-header  {  margin : 10px 60px 0 60px  ;}
-.m-icon    {  margin : 0 60px            ;}
-.m-icon    {  margin : 10px 0 0 30px     ;}
-.mb-social { margin-bottom: 10px         ;}
-.m-section {  margin-top : 10px          ;}
-.m-none    {margin: 0                    ;}
-
-.p-contenu { padding: 30px               ;}
+.margtop      {  margin-top: 10px           ;}
+.m-header     {  margin : 0 60px 0 60px     ;}
+.m-icon       {  margin : 0 60px            ;}
+.m-article    {  margin-top : 35px          ;}
+.m-icon       {  margin : 10px 0 0 30px     ;}
+.mb-social    {  margin-bottom: 10px        ;}
+.m-none       {  margin: 0                  ;}
+.m-button     {  margin: 30px               ;}
+.marg-center  {  margin: 0 auto             ;}
+.marg-sect    {  padding-top : 10px         ;}
+article       {  padding: 20px              ;}
+.pad-header   {  padding-top: 10px          ;}
+.p-contenu    {  padding: 30px              ;}
 
 /******* FONT ********/ 
 
-.playfair {font-family: 'Playfair Display', serif ;}
-.noto     {font-family: 'Noto Sans', sans-serif   ;}
+.playfair { font-family: 'Playfair Display', serif ;}
+.noto     { font-family: 'Noto Sans', sans-serif   ;}
 
-.playfair-regular {font-weight: 400 ;}
-.playfair-bold    {font-weight: 700 ;}
+.playfair-regular { font-weight: 400 ;}
+.playfair-bold    { font-weight: 700 ;}
 
-.noto-regular {font-weight: 400 ;}
-.noto-bold    {font-weight: 700 ;}
+.noto-regular { font-weight: 400 ;}
+.noto-bold    { font-weight: 700 ;}
 
 .txt-center  { text-align: center  ;}
 .txt-justify { text-align: justify ;}
 
+/********  IMG  ********/
+
+.d-block {display: block;}
 
 
 /* ---------------- LOAN ---------------- */
@@ -1050,27 +1069,16 @@ object {
 
 /* ---------------- Fonts ---------------- */
 
-			.bold{font-weight:700;}
-            .fs80{font-size:8rem;}
-            .fs60{font-size:6rem;}
-            .fs40{font-size:4rem;}
-            .fs36{font-size:3.6rem;}
-            .fs32{font-size:3.2rem;}
-            .fs24{font-size:2.4rem;}
-            .fs20{font-size:2rem;}
-            .fs18{font-size:1.8rem;}
-			.fs15{font-size:1.5rem;}
-			
-
-/* ---------------- Colors ---------------- */
-
-.color1{color:#fff !important;}
-
-/* ---------------- Tailles ---------------- */
-
-	.h100vh{height:100vh;}
-
-
+.bold {  font-weight:700  ;}
+.fs80 {  font-size:8rem   ;}
+.fs60 {  font-size:6rem   ;}
+.fs40 {  font-size:4rem   ;}
+.fs36 {  font-size:3.6rem ;}
+.fs32 {  font-size:3.2rem ;}
+.fs24 {  font-size:2.4rem ;}
+.fs20 {  font-size:2rem   ;}
+.fs18 {  font-size:1.8rem ;}
+.fs15 {  font-size:1.5rem ;}
 
 /* ---------------- Split ---------------- */
 
@@ -1125,14 +1133,24 @@ transition: all 1s ease;}
 	transform: rotate(-180deg);
 	}
 
-
-	.nodeco{text-decoration: none;}
 	
-/********  STYLE  ********/
-
-.line-header { border-top: 1px solid #000 ;}
-.m-auto {margin: 0 auto;}
+/* ---------------- MONICA ---------------- */
+/* ----------------------------------------*/
 
 
+/****** HEIGHT & WIDTH ********/ 
 
-hr {border-bottom: solid 2px #E4388C;}
+.w-60 {width: 60%;}
+
+.flex-rowreverse {flex-direction: row-reverse;}
+
+/******* PADDING & MARGIN ********/ 
+.m-8 {margin: 8px;}
+.m-55 {margin: 55px;}
+
+
+.p-55 {padding: 55px;}
+.p-8 {padding: 8px;}
+
+/*******IMAGES ********/ 
+.b-rad50 {border-radius: 100%;}

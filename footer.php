@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 <div class="bg-footer p-contenu">
-	<footer id="colophon" class="site-footer w-1200 m-auto d-flex jc-between ai-ceter">
+	<footer id="colophon" class="site-footer w-1200 marg-center d-flex jc-between ai-ceter">
 		<div class="d-flex flex-col txt-center">
 		<?php the_custom_logo(); ?>
 			<div class="site-info d-flex flex-col noto ft-8 color-footer">

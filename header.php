@@ -24,7 +24,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'kelles-energies' ); ?></a>
 
-	<header id="masthead" class="site-header d-flex ai-center jc-between w-1200 m-auto m-header ">
+	<header id="masthead" class="site-header d-flex ai-center jc-between w-1200 marg-center marg-sect">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -58,9 +58,7 @@
 
 	<div id="content" class="site-content">
 
-	<div class="w-1200 m-auto d-flex jc-end m-icon line-header mb-social">
+	<div class="w-1200 marg-center d-flex jc-end m-icon line-header">
 		<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/facebook_logo.jpg" alt="test"></a>
 		<a href=""><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/insta_logo.jpg" alt="test"></a>
-		
-		
 	</div>

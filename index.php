@@ -15,12 +15,12 @@
 get_header();
 ?>
 
-	<div class="w-1200 m-auto d-flex jc-center">
+	<div class="w-1200 marg-center d-flex jc-center pad-header">
 
 		<div class="w-20 color-purple d-flex jc-center">
-
 			<p class="rotated color-title playfair fs32 m-none txt-center ">K'ELLES ENERGIES</p>
 		</div>
+
 		<div class="w-80 d-flex ">
 			<div class="p-contenu">
 				<h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
@@ -35,17 +35,26 @@ get_header();
 				</p>
 			</div>
 			<div>
-				<img src="/wordpress/wp-content/themes/kelles-energies/img/intro_home.jpg" alt="">
+				<img class="d-block" src="<?php echo THEME_IMG_PATH; ?>/intro_home2.jpg" alt="intro_home">
+				<!-- <img class="d-block" src="/wordpress/wp-content/themes/kelles-energies/img/intro_home.jpg" alt=""> -->
 			</div>
 		</div>
 		
 	</div>
 
-	<div class="w-1200 m-auto d-flex jc-center">
+	<div class="w-1200 marg-center d-flex jc-center flex-col bg-footer">
 
-		<div class="w-80 d-flex ">
-		<div id="primary" class="content-area">
-		<main id="main" class="site-main d-flex">
+		<div class="w-100 d-flex">
+
+		<div id="primary" class="content-area w-80 flex-col ">
+
+	
+
+
+		<main id="main" class=" site-main d-flex txt-center color-txt nodeco mb-button m-article jc-center ai-center">
+		<?php  
+			get_sidebar();
+		?>
 
 		<?php
 		if ( have_posts() ) :
@@ -53,7 +62,7 @@ get_header();
 			if ( is_home() && ! is_front_page() ) :
 				?>
 				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					<h1 class="page-title screen-reader-text p-contenu"><?php single_post_title(); ?></h1>
 				</header>
 				<?php
 			endif;
@@ -71,27 +80,57 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation();
-
 		else :
 
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif;
 		?>
-
+		
 		</main><!-- #main -->
-	</div><!-- #primary -->
 
-		<div class="w-20 color-purple d-flex jc-center">
-			<p class="rotated color-title playfair ft-20 m-none txt-center ">ACTUALITE</p>
+		<div class="d-flex jc-center">
+			<button class="w-20 m-button">
+			<?php
+				the_posts_navigation();
+			?>
+			</button>
 		</div>
 
-	</div>
+		</div><!-- #primary -->
+
+			<div class="w-20 color-purple d-flex jc-center">
+				<p class="rotated color-title playfair fs32 m-none txt-center ">ACTUALITE</p>
+			</div>
+		</div><!-- #w-100 -->
 
 
-	
+	</div><!-- #w-1200 -->
+
+	<div class="w-1200  marg-center d-flex jc-center ">
+
+		<div class="w-20 color-purple d-flex jc-center">
+
+			<p class="rotated color-title playfair fs32 m-none txt-center ">REVUES DE PRESSE</p>
+		</div>
+		<div class="w-80 d-flex ">
+			<div class="p-contenu">
+				<h2 class="txt-center playfair fs32">C'est la partie avec les articles</h2>
+				<p class="txt-center playfair fs24">Lorem Ipsum</p>
+				<hr width="40%">
+				<p class="txt-justify noto fs15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
+				Vestibulum consequat commodo metus a mollis. Etiam at tellus eget ex imperdiet sagittis quis at ligula. 
+				Nulla sit amet nisl nunc. Nullam placerat ipsum id purus aliquet feugiat. Integer tempor felis libero, 
+				at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
+				Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
+				</p>
+			</div>
+		
+	</div>			
+
 
 <?php
-/* get_sidebar(); */
+
 get_footer();
+?>
+

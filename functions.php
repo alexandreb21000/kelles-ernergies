@@ -176,3 +176,8 @@ function wbci_enqueue_js_css () {
   }
 }
 add_action('wp_enqueue_scripts', 'wbci_enqueue_js_css');
+
+
+if( !defined(THEME_IMG_PATH)){
+	define( 'THEME_IMG_PATH', get_stylesheet_directory_uri() . '/img' );
+	}
