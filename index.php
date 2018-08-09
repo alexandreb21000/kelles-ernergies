@@ -1,3 +1,7 @@
+
+<?php /* Template Name: Accueil */ ?>
+
+
 <?php
 /**
  * The main template file
