@@ -1,3 +1,8 @@
+
+<?php /* Template Name: Accueil */ ?>
+
+
+
 <?php
 /**
  * The main template file
@@ -14,6 +19,7 @@
 
 get_header();
 ?>
+
 
 	<div class="w-1200 marg-center d-flex jc-center pad-header">
 
@@ -51,7 +57,7 @@ get_header();
 	
 
 
-		<main id="main" class=" site-main d-flex txt-center color-txt nodeco mb-button m-article jc-center ai-center">
+		<main id="main" class=" site-main d-flex txt-center color1 nodeco mb-button m-article jc-center ai-center">
 		<?php  
 			get_sidebar();
 		?>
@@ -130,7 +136,6 @@ get_header();
 
 
 <?php
-
-get_footer();
+	get_footer();
 ?>
 

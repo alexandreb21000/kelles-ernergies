@@ -69,7 +69,6 @@ html {
 
 body {
 	margin: 0;
-	font-size: 62.5%; 
 }
 
 /**
@@ -986,12 +985,15 @@ button {
 
 /****** HEIGHT & WIDTH ********/ 
 
-.w-1200   {  width: 1200px  ;}
-.w-20     {  width: 20%     ;}
-.w-80     {  width: 80%     ;}
-.w-100    {  width: 100%    ;}
-.w-33     {  width: 33%     ;}
-.w-header {  width: 100%    ;}
+.w-1200   	{  	width: 	1200px 		;}
+.w-15	  	{  	width: 	15%     	;}
+.w-20     	{  	width: 	20%     	;}
+.w-33	  	{  	width: 	33%     	;}
+.w-40	  	{	width:	40%			;}
+.w-60	  	{  	width: 	60%     	;}
+.w-80     	{  	width: 	80%     	;}
+.w-100    	{	width:	100%		;}
+.w-header 	{  	width: 	100%    	;}
 
 .h-header {  height: 100px  ;}
 .h100vh   {  height:100vh   ;}
@@ -1005,17 +1007,17 @@ button {
 
 .bg-header { background-color: #fff;}
 .bg-footer { background-color: #F7F7F7;}
-
-
-
-.color-purple {  background-color: #6C556F   ;}
-
-.color1       { color:#fff       ;}
-.color-txt    { color: #444      ;}
-.color-pink   { color: #E4388C   ;}
-.color-grey   { color: #707070   ;}
+.color-purple { background-color: #6C556F   ;}
 .color-title  { color: #fff      ;}
 .color-footer { color: #B1B1B1   ;}
+
+.color1{color:#444444;}
+.color2{color:#E4388C;}
+.color3{color:#6C556F;}
+.color4{color:#fff !important;}
+.color5{color: #B1B1B1   ;}
+
+.bgcolor1 {background-color: #F7F7F7;}
 
 /******* DISPLAY ********/ 
 
@@ -1044,7 +1046,7 @@ button {
 article       {  padding: 20px              ;}
 .pad-header   {  padding-top: 10px          ;}
 .p-contenu    {  padding: 30px              ;}
-
+.p-8          {  padding: 8px               ;}
 /******* FONT ********/ 
 
 .playfair { font-family: 'Playfair Display', serif ;}
@@ -1063,8 +1065,54 @@ article       {  padding: 20px              ;}
 
 .d-block {display: block;}
 
+/********  STYLE  ********/
+
+.line-header { border-top: 1px solid #000 ;}
+.m-auto {margin: 0 auto;}
+.txt-orientation {
+	transform: rotate(-90deg);
+	}
+hr {border-bottom: solid 2px #E4388C;
+background-color:#fff !important;}
+
+
 
 /* ---------------- LOAN ---------------- */
+
+
+/* ---------------- Spécifiques ---------------- */
+
+			.noDisplay-lg{display:none;}
+			.grid{display:flex;
+			flex-wrap:wrap;
+			justify-content: space-around;
+			}
+			.cell{flex: 0 0 32%;
+			padding:10px;
+			margin-top: 5px;}
+			.pinkBorder{border: #E4388C 1px solid;
+			}
+			img.cell.pinkBorder {
+				width: 60px;
+				height:120px;
+			}
+
+			#site-navigation a{font-size:1.4rem;}
+
+
+			/* Cache le header et la barre sociale sur la split-page */
+			.home header, .home .mb-social {display:none;}
+
+			.bottomFixed{
+                position:fixed;
+                bottom:0;
+                left:50%;
+                transform:translateX(-50%);
+                display:inline-block;
+                opacity:0.8;
+                width:100%;
+                z-index:999;
+                }
 
 
 /* ---------------- Fonts ---------------- */
@@ -1080,62 +1128,67 @@ article       {  padding: 20px              ;}
 .fs18 {  font-size:1.8rem ;}
 .fs15 {  font-size:1.5rem ;}
 
+
 /* ---------------- Split ---------------- */
+			.split {
+				height: 100%;
+				width: 50%;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				overflow-x: hidden;
+				padding-top: 20px;
+			}
+			
+			/* Control the left side */
+			.left {
+			left: 0;
+			background: url('img/women_street.jpg') center no-repeat;
+			background-size:cover;
+			}
 
-.split {
-	height: 100%;
-	width: 50%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-  }
-  
-  /* Control the left side */
-  .left {
-	left: 0;
-	background: url('img/women_street') center no-repeat;
-	background-size:cover;
-  }
-  
-  /* Control the right side */
-  .right {
-	right: 0;
-	background: url('img/women_office.jpg') center no-repeat;
-	background-size:cover;
-  }
-  
-  .left:hover, .right:hover{filter:grayscale(100%);
-filter:pink;
-transition: all 1s ease;}
+			/* Control the right side */
+			.right {
+			right: 0;
+			background: url('img/women_office.jpg') center no-repeat;
+			background-size:cover;
+			}
+			.left:hover
+			{
+				background: 
+				linear-gradient(
+					rgba(237, 124, 218, 0.45), 
+					rgba(237, 124, 218, 0.45)
+				),
+				url('img/women_street.jpg') center no-repeat;
+				background-size:cover;
+				}
+			.right:hover{
+					
+				background: 
+				linear-gradient(
+					rgba(237, 124, 218, 0.45), 
+					rgba(237, 124, 218, 0.45)
+				),
+				url('img/women_office.jpg') center no-repeat;
+				background-size:cover;}
+				
+					
+			/* If you want the content centered horizontally and vertically */
+			.centered {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+			}
+			
+			/* Style the image inside the centered container, if needed */
+			.centered img {
+				width: 150px;
+				border-radius: 50%;
+			}
 
-
-  /* If you want the content centered horizontally and vertically */
-  .centered {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-  }
-  
-  /* Style the image inside the centered container, if needed */
-  .centered img {
-	width: 150px;
-	border-radius: 50%;
-  }
-
-
-  /* ---------------- Ecriture verticale ---------------- */
-  .rotated{
-	writing-mode: tb-rl;
-	transform: rotate(-180deg);
-	}
-
-	
-/* ---------------- MONICA ---------------- */
-/* ----------------------------------------*/
 
 
 /****** HEIGHT & WIDTH ********/ 
@@ -1144,13 +1197,166 @@ transition: all 1s ease;}
 
 .flex-rowreverse {flex-direction: row-reverse;}
 
-/******* PADDING & MARGIN ********/ 
-.m-8 {margin: 8px;}
-.m-55 {margin: 55px;}
 
 
-.p-55 {padding: 55px;}
-.p-8 {padding: 8px;}
+/* ---------------- Ecriture verticale ---------------- */
+
+			.rotated{
+				writing-mode: tb-rl;
+				transform: rotate(-180deg);
+			}
+
+
+			.nodeco{text-decoration: none;}
+	
+
+/* ----------------------- Media queries ----------------------- */
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+			.split{
+				height: 51%;
+				width: 100%;
+			}
+			.responsiveSplit
+			{
+				top:auto;
+				bottom:0;
+			}
+
+			.fs90-sm{font-size:9rem;}
+			.fs160-sm{font-size:16rem;}
+
+
+			.block-on-med-and-down{display: block;}
+			/* Annulation des classes appliquées au H2 en large-screen */
+			.h2-sm{
+				display:block;
+				writing-mode: horizontal-tb;
+				transform: rotate(0deg);
+				}
+
+		}
+
+
+
 
 /*******IMAGES ********/ 
 .b-rad50 {border-radius: 100%;}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+
+
+			/* Fonts */
+
+			.fs36-sm{font-size:3.6rem;}
+			
+			/* Fonts réduites de 20% */
+
+			.fs80-sm{font-size:6.4rem;}
+			.fs60-sm{font-size:4.8rem;}
+			.fs40-sm{font-size:3.2rem;}
+			.fs36-sm{font-size:2.9rem;}
+			.fs32-sm{font-size:2.6rem;}
+			.fs24-sm{font-size:1.9rem;}
+			.fs20-sm{font-size:1.6rem;}
+			.fs18-sm{font-size:1.4rem;}
+			.fs15-sm{font-size:1.2rem;}
+		
+			.noDisplay-sm{display:none;}
+			.split{
+				height: 50%;
+				width: 100%;
+			}
+			.responsiveSplit
+			{
+				top:auto;
+				bottom:0;
+			}
+
+			.noDisplay-lg{display:block;}
+
+			.block-on-med-and-down{display: block;}
+			/* Annulation des classes appliquées au H2 en large-screen */
+			.h2-sm{
+				display:block;
+				writing-mode: horizontal-tb;
+				transform: rotate(0deg);
+				}
+			.d-block-sm{display:block}
+}
+
+
+/* Contact Form 7 Form Background And Border CSS
+-----------------------------------------------*/
+.wpcf7
+{
+    background-color: #6C556F;
+    border: 2px solid pink;
+      color:#ffffff;
+        width:700px;
+      font-size: 16px;
+}
+/* Contact Form 7 Input Fields CSS
+---------------------------------*/
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+textarea
+{
+    font-size: 16px;
+    background-color: #f5f5f5;
+    border: none;
+    color: #000;
+    width: 95%;
+    padding: 2%;
+}
+/* Contact Form 7 Submit Button
+-------------------------------*/
+
+.wpcf7 input[type="submit"]{
+    color: #E4388C;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #6C556F;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.wpcf7 input:hover[type="submit"] {
+    background: #494949;
+      color:#ffffff;
+    transition: all 0.4s ease 0s;
+}
+
+.wpcf7 input:active[type="submit"] {
+    background: #000000;
+}
+/* Contact Form 7 Margins
+-------------------------*/
+
+.wpcf7 form {
+     margin-left: 40px;
+     margin-right: 20px;
+     margin-top: 40px;
+}

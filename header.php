@@ -10,7 +10,7 @@
  */
 
 ?>
-<!doctype html>
+<!Doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -44,7 +44,7 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
+		<nav id="site-navigation" class="main-navigation fs10">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'kelles-energies' ); ?></button>
 			<?php
 			wp_nav_menu( array(
@@ -58,7 +58,7 @@
 
 	<div id="content" class="site-content">
 
-	<div class="w-1200 marg-center d-flex jc-end m-icon line-header">
-		<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/facebook_logo.jpg" alt="test"></a>
-		<a href=""><img class="social_media m-icon " src="/wordpress/wp-content/themes/kelles-energies/img/insta_logo.jpg" alt="test"></a>
+	<div class="w-1200 m-auto d-flex jc-end m-icon line-header mb-social">
+		<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="<?php echo THEME_IMG_PATH; ?>/facebook_logo.jpg" alt="test"></a>
+		<a href=""><img class="social_media m-icon " src="<?php echo THEME_IMG_PATH; ?>/insta_logo.jpg" alt="test"></a>
 	</div>
