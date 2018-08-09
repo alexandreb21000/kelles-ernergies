@@ -493,9 +493,7 @@ input[type="reset"],
 input[type="submit"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
 	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1;
@@ -1331,11 +1329,10 @@ background-color:#fff !important;}
 -----------------------------------------------*/
 .wpcf7
 {
-    background-color: #6C556F;
-    border: 2px solid pink;
-      color:#ffffff;
-        width:700px;
-      font-size: 16px;
+	color:#6C556F;
+	font-weight: 700;
+    width:700px;
+    font-size: 1.4rem;
 }
 /* Contact Form 7 Input Fields CSS
 ---------------------------------*/
@@ -1350,28 +1347,24 @@ textarea
     border: none;
     color: #000;
     width: 95%;
-    padding: 2%;
+    
 }
 /* Contact Form 7 Submit Button
 -------------------------------*/
 
 .wpcf7 input[type="submit"]{
-    color: #E4388C;
-    font-size: 18px;
+    color: #6C556F;
+    font-size: 1.4rem;
     font-weight: 700;
-    background-color: #6C556F;
-    padding: 15px 25px 15px 25px;
     border: none;
-    border-radius: 5px;
-    width: auto;
-    text-decoration: none;
+    padding: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .wpcf7 input:hover[type="submit"] {
-    background: #494949;
-      color:#ffffff;
+    background: #6C556F;
+    color:#ffffff;
     transition: all 0.4s ease 0s;
 }
 
@@ -1384,5 +1377,5 @@ textarea
 .wpcf7 form {
      margin-left: 40px;
      margin-right: 20px;
-     margin-top: 40px;
+     
 }

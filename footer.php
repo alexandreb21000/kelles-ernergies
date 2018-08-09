@@ -12,8 +12,8 @@
 ?>
 
 	</div><!-- #content -->
-<div class="bg-footer p-contenu">
-	<footer id="colophon" class="site-footer w-1200 m-auto d-flex jc-between ai-ceter">
+<div class=" ">
+	<footer id="colophon" class="p-contenu bg-footer site-footer w-1200 m-auto d-flex jc-between ai-ceter">
 		<div class="d-flex flex-col txt-center">
 		<?php the_custom_logo(); ?>
 			<div class="site-info d-flex flex-col noto fs15 color-footer">
