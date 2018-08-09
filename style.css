@@ -1053,28 +1053,29 @@ object {
 .txt-orientation {
 	transform: rotate(-90deg);
 	}
+hr {border-bottom: solid 2px #E4388C;}
 
 
 
 /* ---------------- LOAN ---------------- */
 
-.grid{display:flex;
-flex-wrap:wrap;
-justify-content: space-around;
-}
-.cell{flex: 0 0 32%;
-padding:10px;
-margin-top: 5px;}
-.pinkBorder{border: #E4388C 1px solid;
-}
-img.cell.pinkBorder {
-	width: 60px;
-	height:120px;
-}
 
-.noscroll{overflow: hidden;}
+/* ---------------- Spécifiques ---------------- */
+			.grid{display:flex;
+			flex-wrap:wrap;
+			justify-content: space-around;
+			}
+			.cell{flex: 0 0 32%;
+			padding:10px;
+			margin-top: 5px;}
+			.pinkBorder{border: #E4388C 1px solid;
+			}
+			img.cell.pinkBorder {
+				width: 60px;
+				height:120px;
+			}
 
-.home header, .home .mb-social {display:none;}
+			.home header, .home .mb-social {display:none;}
 
 
 /* ---------------- Fonts ---------------- */
@@ -1093,83 +1094,83 @@ img.cell.pinkBorder {
 
 /* ---------------- Colors ---------------- */
 
-.color1{color:#fff !important;}
+			.color1{color:#fff !important;}
 
 /* ---------------- Tailles ---------------- */
 
-	.h100vh{height:100vh;}
+			.h100vh{height:100vh;}
 
 
 
 /* ---------------- Split ---------------- */
-	.split {
-		height: 100%;
-		width: 50%;
-		position: fixed;
-		z-index: 1;
-		top: 0;
-		overflow-x: hidden;
-		padding-top: 20px;
-	}
-	
-	/* Control the left side */
-	.left {
-	left: 0;
-	background: url('img/women_street.jpg') center no-repeat;
-	background-size:cover;
-	}
+			.split {
+				height: 100%;
+				width: 50%;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				overflow-x: hidden;
+				padding-top: 20px;
+			}
+			
+			/* Control the left side */
+			.left {
+			left: 0;
+			background: url('img/women_street.jpg') center no-repeat;
+			background-size:cover;
+			}
 
-	/* Control the right side */
-	.right {
-	right: 0;
-	background: url('img/women_office.jpg') center no-repeat;
-	background-size:cover;
-	}
-	.left:hover
-	{
-		background: 
-		linear-gradient(
-			rgba(237, 124, 218, 0.45), 
-			rgba(237, 124, 218, 0.45)
-		),
-		url('img/women_street.jpg') center no-repeat;
-		background-size:cover;
-		}
-	.right:hover{
+			/* Control the right side */
+			.right {
+			right: 0;
+			background: url('img/women_office.jpg') center no-repeat;
+			background-size:cover;
+			}
+			.left:hover
+			{
+				background: 
+				linear-gradient(
+					rgba(237, 124, 218, 0.45), 
+					rgba(237, 124, 218, 0.45)
+				),
+				url('img/women_street.jpg') center no-repeat;
+				background-size:cover;
+				}
+			.right:hover{
+					
+				background: 
+				linear-gradient(
+					rgba(237, 124, 218, 0.45), 
+					rgba(237, 124, 218, 0.45)
+				),
+				url('img/women_office.jpg') center no-repeat;
+				background-size:cover;}
+				
+					
+			/* If you want the content centered horizontally and vertically */
+			.centered {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+			}
 			
-		background: 
-		linear-gradient(
-			rgba(237, 124, 218, 0.45), 
-			rgba(237, 124, 218, 0.45)
-		),
-		url('img/women_office.jpg') center no-repeat;
-		background-size:cover;}
-		
-			
-	/* If you want the content centered horizontally and vertically */
-	.centered {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-	}
-	
-	/* Style the image inside the centered container, if needed */
-	.centered img {
-		width: 150px;
-		border-radius: 50%;
-	}
+			/* Style the image inside the centered container, if needed */
+			.centered img {
+				width: 150px;
+				border-radius: 50%;
+			}
 
 
 /* ---------------- Ecriture verticale ---------------- */
-  	.rotated{
-		writing-mode: tb-rl;
-		transform: rotate(-180deg);
-	}
+			.rotated{
+				writing-mode: tb-rl;
+				transform: rotate(-180deg);
+			}
 
 
-	.nodeco{text-decoration: none;}
+			.nodeco{text-decoration: none;}
 	
 
 /* ----------------------- Media queries ----------------------- */
@@ -1187,62 +1188,61 @@ img.cell.pinkBorder {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.split{
-		height: 51%;
-		width: 100%;
+		.split{
+			height: 51%;
+			width: 100%;
+		}
+		.responsiveSplit
+		{
+			top:auto;
+			bottom:0;
+		}
+
+		.fs90-sm{font-size:9rem;}
+		.fs160-sm{font-size:16rem;}
+
+
+		.block-on-med-and-down{display: block;}
+		/* Annulation des classes appliquées au H2 en large-screen */
+		.h2-sm{
+			display:block;
+			writing-mode: horizontal-tb;
+			transform: rotate(0deg);
+			}
+
 	}
-	.responsiveSplit
-	{
-		top:auto;
-		bottom:0;
-	}
-
-	.fs90-sm{font-size:9rem;}
-	.fs160-sm{font-size:16rem;}
-
-
-	.block-on-med-and-down{display: block;}
-    /* Annulation des classes appliquées au H2 en large-screen */
-    .h2-sm{
-        display:block;
-        writing-mode: horizontal-tb;
-        transform: rotate(0deg);
-        }
-
-}
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
-	.fs80-sm{font-size:6.4rem;}
-    .fs60-sm{font-size:4.8rem;}
-    .fs40-sm{font-size:3.2rem;}
-    .fs36-sm{font-size:2.9rem;}
-    .fs32-sm{font-size:2.6rem;}
-    .fs24-sm{font-size:1.9rem;}
-    .fs20-sm{font-size:1.6rem;}
-    .fs18-sm{font-size:1.4rem;}
-	.fs15-sm{font-size:1.2rem;}
+		.fs80-sm{font-size:6.4rem;}
+		.fs60-sm{font-size:4.8rem;}
+		.fs40-sm{font-size:3.2rem;}
+		.fs36-sm{font-size:2.9rem;}
+		.fs32-sm{font-size:2.6rem;}
+		.fs24-sm{font-size:1.9rem;}
+		.fs20-sm{font-size:1.6rem;}
+		.fs18-sm{font-size:1.4rem;}
+		.fs15-sm{font-size:1.2rem;}
 	
 
-	.split{
-		height: 50%;
-		width: 100%;
-	}
-	.responsiveSplit
-	{
-		top:auto;
-		bottom:0;
-	}
+		.split{
+			height: 50%;
+			width: 100%;
+		}
+		.responsiveSplit
+		{
+			top:auto;
+			bottom:0;
+		}
 
-	
+		
 
-	.block-on-med-and-down{display: block;}
-    /* Annulation des classes appliquées au H2 en large-screen */
-    .h2-sm{
-        display:block;
-        writing-mode: horizontal-tb;
-        transform: rotate(0deg);
-        }
+		.block-on-med-and-down{display: block;}
+		/* Annulation des classes appliquées au H2 en large-screen */
+		.h2-sm{
+			display:block;
+			writing-mode: horizontal-tb;
+			transform: rotate(0deg);
+			}
 }
-hr {border-bottom: solid 2px #E4388C;}
