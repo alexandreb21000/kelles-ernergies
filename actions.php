@@ -2,7 +2,7 @@
 
 <?php get_header();?>
 
-<div class="w-1200 m-auto d-flex d-block-sm jc-center">
+<div class="w-1200 m-auto d-flex d-block-sm jc-center bgcolor1">
 
     <!-- Titre vertical + background à gauche, disparait sur small medias -->
     <div class="w-20 color-purple d-flex d-block jc-center noDisplay-sm ">
@@ -12,14 +12,14 @@
 
 
     <!-- Titre en responsive -->
-    <div class="w-100 color-purple noDisplay-lg">
+    <div class="w-100 color-purple noDisplay-lg ">
 
-        <p class="color-title playfair fs32 m-none txt-center">LES ACTIONS</p>
+        <p class="color-title playfair m-none txt-center lineh150p h150p fs60-sm">LES ACTIONS</p>
     </div>
     
-    <div class="w-60">
+    <div class="w-60 w-80-sm center-sm">
         <div class="p-contenu">
-            <h2 class="txt-center playfair fs36 m-none">Lorem Ipsum</h2>
+            <h2 class="txt-center playfair fs36 fs40-sm m-none">Lorem Ipsum</h2>
             <p class="txt-center playfair fs24 m-none">Lorem Ipsum</p>
             <hr class="w-40">
             <p class="txt-justify noto fs15 w-80 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
