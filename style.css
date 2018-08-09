@@ -1325,6 +1325,36 @@ background-color:#fff !important;}
 }
 
 
+
+/******* CSS Mobile Monica ******/
+
+@media all and (max-width: 540px){
+    
+}
+
+@media all and (max-width: 720px){
+    .w-1200, .w-20, .w-80, .w-100-sm { width: 100%; }
+    .w-80-sm .m-auto .d-flex .d-block-sm .jc-center{ width: 80%; }
+    .d-block-sm { display: block; }
+    .h-auto {height: auto;}
+
+
+    .rotated {
+        writing-mode: unset;
+        transform: rotate(0); 
+    }
+}
+
+@media all and (max-width: 960px){
+    
+}
+
+@media all and (max-width: 1140px){
+
+}
+
+
+
 /* Contact Form 7 Form Background And Border CSS
 -----------------------------------------------*/
 .wpcf7
@@ -1379,3 +1409,5 @@ textarea
      margin-right: 20px;
      
 }
+
+
