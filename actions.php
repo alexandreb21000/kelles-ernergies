@@ -4,9 +4,9 @@
 
 <div class="w-1200 m-auto d-flex jc-center noscroll">
 
-    <div class="w-20 color-purple d-flex jc-center">
+    <div class="w-20 color-purple d-flex jc-center noDisplay-sm">
 
-        <p class="rotated color-title playfair fs32 m-none txt-center ">LES ACTIONS</p>
+        <p class="rotated color-title playfair fs32 m-none txt-center h2-sm">LES ACTIONS</p>
     </div>
     <div class="w-60">
         <div class="p-contenu">

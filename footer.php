@@ -12,7 +12,7 @@
 ?>
 
 	</div><!-- #content -->
-<div class="bg-footer p-contenu">
+<div class="bg-footer p-contenu bottomFixed">
 	<footer id="colophon" class="site-footer w-1200 m-auto d-flex jc-between ai-ceter">
 		<div class="d-flex flex-col txt-center">
 		<?php the_custom_logo(); ?>
@@ -27,8 +27,8 @@
 		<div class="d-flex ai-end">
 			<div class="d-flex ai-center">
 				<p>Mention Légales</p>
-				<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="/wordpress_assoc/wp-content/themes/kelles-energies/img/facebook_logo.jpg" alt="test"></a>
-				<a href=""><img class="social_media m-icon " src="/wordpress_assoc/wp-content/themes/kelles-energies/img/insta_logo.jpg" alt="test"></a>
+				<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="<?php echo THEME_IMG_PATH; ?>/facebook_logo.jpg" alt="test"></a>
+				<a href=""><img class="social_media m-icon " src="<?php echo THEME_IMG_PATH; ?>/insta_logo.jpg" alt="test"></a>
 			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

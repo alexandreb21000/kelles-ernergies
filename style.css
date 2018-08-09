@@ -999,8 +999,7 @@ object {
 .bg-footer { background-color: #F7F7F7;}
 .bg-header{ background-color: #fff;}
 
-.bgcolor1{background-color: red;}
-.bgcolor2{background-color: blue;}
+
 
 .color-txt    {color: #444      ;}
 .color-pink   {color: #E4388C   ;}
@@ -1075,7 +1074,20 @@ hr {border-bottom: solid 2px #E4388C;}
 				height:120px;
 			}
 
+
+			/* Cache le header et la barre sociale sur la split-page */
 			.home header, .home .mb-social {display:none;}
+
+			.bottomFixed{
+                position:fixed;
+                bottom:0;
+                left:50%;
+                transform:translateX(-50%);
+                display:inline-block;
+                opacity:0.8;
+                width:100%;
+                z-index:999;
+                }
 
 
 /* ---------------- Fonts ---------------- */
@@ -1093,8 +1105,10 @@ hr {border-bottom: solid 2px #E4388C;}
 			
 
 /* ---------------- Colors ---------------- */
-
-			.color1{color:#fff !important;}
+			.color1{color:#444444;}
+			.color2{color:#E4388C;}
+			.color3{color:#6C556F;}
+			.color4{color:#fff !important;}
 
 /* ---------------- Tailles ---------------- */
 
@@ -1188,61 +1202,63 @@ hr {border-bottom: solid 2px #E4388C;}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-		.split{
-			height: 51%;
-			width: 100%;
-		}
-		.responsiveSplit
-		{
-			top:auto;
-			bottom:0;
-		}
-
-		.fs90-sm{font-size:9rem;}
-		.fs160-sm{font-size:16rem;}
-
-
-		.block-on-med-and-down{display: block;}
-		/* Annulation des classes appliquées au H2 en large-screen */
-		.h2-sm{
-			display:block;
-			writing-mode: horizontal-tb;
-			transform: rotate(0deg);
+			.split{
+				height: 51%;
+				width: 100%;
+			}
+			.responsiveSplit
+			{
+				top:auto;
+				bottom:0;
 			}
 
-	}
+			.fs90-sm{font-size:9rem;}
+			.fs160-sm{font-size:16rem;}
+
+
+			.block-on-med-and-down{display: block;}
+			/* Annulation des classes appliquées au H2 en large-screen */
+			.h2-sm{
+				display:block;
+				writing-mode: horizontal-tb;
+				transform: rotate(0deg);
+				}
+
+		}
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
-		.fs80-sm{font-size:6.4rem;}
-		.fs60-sm{font-size:4.8rem;}
-		.fs40-sm{font-size:3.2rem;}
-		.fs36-sm{font-size:2.9rem;}
-		.fs32-sm{font-size:2.6rem;}
-		.fs24-sm{font-size:1.9rem;}
-		.fs20-sm{font-size:1.6rem;}
-		.fs18-sm{font-size:1.4rem;}
-		.fs15-sm{font-size:1.2rem;}
-	
+			/* Fonts réduites de 20% */
 
-		.split{
-			height: 50%;
-			width: 100%;
-		}
-		.responsiveSplit
-		{
-			top:auto;
-			bottom:0;
-		}
+			.fs80-sm{font-size:6.4rem;}
+			.fs60-sm{font-size:4.8rem;}
+			.fs40-sm{font-size:3.2rem;}
+			.fs36-sm{font-size:2.9rem;}
+			.fs32-sm{font-size:2.6rem;}
+			.fs24-sm{font-size:1.9rem;}
+			.fs20-sm{font-size:1.6rem;}
+			.fs18-sm{font-size:1.4rem;}
+			.fs15-sm{font-size:1.2rem;}
+		
+
+			.split{
+				height: 50%;
+				width: 100%;
+			}
+			.responsiveSplit
+			{
+				top:auto;
+				bottom:0;
+			}
 
 		
 
-		.block-on-med-and-down{display: block;}
-		/* Annulation des classes appliquées au H2 en large-screen */
-		.h2-sm{
-			display:block;
-			writing-mode: horizontal-tb;
-			transform: rotate(0deg);
-			}
+			.block-on-med-and-down{display: block;}
+			/* Annulation des classes appliquées au H2 en large-screen */
+			.h2-sm{
+				display:block;
+				writing-mode: horizontal-tb;
+				transform: rotate(0deg);
+				}
 }
