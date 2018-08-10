@@ -995,6 +995,7 @@ button {
 
 .h-header {  height: 100px  ;}
 .h100vh   {  height:100vh   ;}
+.h-50{height: 50%;}
 
 .social_media {
 	height: 25px;
@@ -1040,6 +1041,7 @@ button {
 .m-none       {  margin: 0                  ;}
 .m-button     {  margin: 30px               ;}
 .marg-center  {  margin: 0 auto             ;}
+.m-bot25p     {  margin-bottom: 25px		;}
 .marg-sect    {  padding-top : 10px         ;}
 article       {  padding: 20px              ;}
 .pad-header   {  padding-top: 10px          ;}
@@ -1092,7 +1094,7 @@ background-color:#fff !important;}
 			.pinkBorder{border: #E4388C 1px solid;
 			}
 			img.cell.pinkBorder {
-				width: 60px;
+				width: 50px;
 				height:120px;
 			}
 
@@ -1142,8 +1144,7 @@ background-color:#fff !important;}
 /* ---------------- Tailles & Margins & Paddings ---------------- */
 
 			.h100vh{height:100vh;}
-			/* .h100p-lg{height:0;}
-			.lineh100p-lg{line-height:0;} */
+			.lineh0{line-height: 0;}
 
 
 
@@ -1248,6 +1249,7 @@ background-color:#fff !important;}
 			.h100p{height:100px;}
 			.lineh100p{line-height: 100px;}
 			.m-top50p-sm{margin-top:50px;}
+			.m-top25p-sm{margin-top:25px;}
 			.nodisplay-sm{display:none;}
 			.split{
 				height: 51%;

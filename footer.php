@@ -26,7 +26,7 @@
 
 		<div class="d-flex ai-end">
 			<div class="d-flex ai-center">
-				<p>Mention Légales</p>
+				<p>Mentions Légales</p>
 				<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="<?php echo THEME_IMG_PATH; ?>/facebook_logo.jpg" alt="test"></a>
 				<a href=""><img class="social_media m-icon " src="<?php echo THEME_IMG_PATH; ?>/insta_logo.jpg" alt="test"></a>
 			</div>
