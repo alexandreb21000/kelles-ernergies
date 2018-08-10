@@ -990,7 +990,7 @@ button {
 .w-40	  	{	width:	40%			;}
 .w-60	  	{  	width: 	60%     	;}
 .w-80     	{  	width: 	80%     	;}
-.w-100    	{	width:	100%		;}
+.w-100    	{	width:	100% !important		;}
 .w-header 	{  	width: 	100%    	;}
 
 .h-header {  height: 100px  ;}
@@ -1242,10 +1242,12 @@ background-color:#fff !important;}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+			.mb-social{display:none;}
+			body{background-color:#F7F7F7;}
 
-			
 			.h100p{height:100px;}
 			.lineh100p{line-height: 100px;}
+			.m-top50p-sm{margin-top:50px;}
 			.nodisplay-sm{display:none;}
 			.split{
 				height: 51%;
