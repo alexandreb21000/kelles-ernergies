@@ -71,20 +71,20 @@
             Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
             </p>
         </div>
-
-        <div class="wrapper5x2 noDisplay-sm w-40 m-bot25p">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-       </div>
-        
+            <div class="m-auto">
+                <div class="w-100 wrapper5x2 noDisplay-sm m-bot25p">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                </div>
+            </div>
     </div>
 
     
