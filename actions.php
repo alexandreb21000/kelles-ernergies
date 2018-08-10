@@ -2,23 +2,21 @@
 
 <?php get_header();?>
 
-<div class="w-1200 m-auto d-flex d-block-sm jc-center bgcolor1">
+<section class="w-1200 m-auto d-flex d-block-sm jc-center bgcolor1">
 
-    <!-- Titre vertical + background à gauche, disparait sur small medias -->
-    <div class="w-20 color-purple d-flex d-block jc-center noDisplay-sm ">
-
-        <p class=" color-title playfair fs32 m-none txt-center rotated h2-sm">LES ACTIONS</p>
+    <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg">
+        <p class="rotated color-title playfair fs32 m-none txt-center ">LES ACTIONS</p>
     </div>
 
 
-    <!-- Titre en responsive -->
-    <div class="w-100 color-purple noDisplay-lg ">
-
-        <p class="color-title playfair m-none txt-center lineh150p h150p fs60-sm">LES ACTIONS</p>
-    </div>
     
-    <div class="w-60 w-80-sm center-sm">
-        <div class="p-contenu">
+    <div class="w-60 w-100-sm center-sm">
+
+        <div class="w-100">
+            <!--  <img class="m-55 p-55" src="/wordpress/wp-content/themes/kelles-ernergies/img/mission.jpg" alt=""> -->
+            <img class="" src="<?php echo THEME_IMG_PATH; ?>/mission.JPG" alt="mission" class="w-80-sm">
+        </div>
+        <div class="p-contenu w-80-sm  m-auto">
             <h2 class="txt-center playfair fs36 fs40-sm m-none">Lorem Ipsum</h2>
             <p class="txt-center playfair fs24 m-none">Lorem Ipsum</p>
             <hr class="w-40">
@@ -31,7 +29,7 @@
         </div>
     </div>
 
-    <section class="grid noDisplay-sm">
+    <article class="grid noDisplay-sm">
         <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
         <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
         <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
@@ -41,8 +39,42 @@
         <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
         <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
         <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">      
-    </section>
-</div>
+    </article>
+</section>
+
+        <!-- Section agenda -->
+
+
+<section id="agenda" class="nodisplay-sm">
+
+        
+</section>
+
+        <!-- Entrepren'heureuses -->
+
+<section class="w-1200 marg-center d-flex d-block-sm flex-rowreverse jc-center bg-footer nodisplay-sm">
+    <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg">
+        <p class="rotated color-title playfair fs32 fs32-sm m-none txt-center ">LES ENTREPREN'HEUREUSES</p>
+    </div>
+    <div class="w-60 w-100-sm center-sm">
+
+        <div class="w-100">
+            <!--  <img class="m-55 p-55" src="/wordpress/wp-content/themes/kelles-ernergies/img/mission.jpg" alt=""> -->
+            <img class="" src="<?php echo THEME_IMG_PATH; ?>/mission.JPG" alt="mission" class="w-80-sm">
+        </div>
+        <div class="p-contenu w-80-sm m-auto">
+            <h2 class="txt-center playfair fs36 fs40-sm m-none">Lorem Ipsum</h2>
+            <p class="txt-center playfair fs24 m-none">Lorem Ipsum</p>
+            <hr class="w-40">
+            <p class="txt-justify noto fs15 w-80 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
+            Vestibulum consequat commodo metus a mollis. Etiam at tellus eget ex imperdiet sagittis quis at ligula. 
+            Nulla sit amet nisl nunc. Nullam placerat ipsum id purus aliquet feugiat. Integer tempor felis libero, 
+            at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
+            Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
+            </p>
+        </div>
+    </div>
+</section>
 
 
 

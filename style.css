@@ -1118,29 +1118,18 @@ background-color:#fff !important;}
 
 /* ---------------- Fonts ---------------- */
 
-.bold {  font-weight:700  ;}
-.fs80 {  font-size:8rem   ;}
-.fs60 {  font-size:6rem   ;}
-.fs40 {  font-size:4rem   ;}
-.fs36 {  font-size:3.6rem ;}
-.fs32 {  font-size:3.2rem ;}
-.fs24 {  font-size:2.4rem ;}
-.fs20 {  font-size:2rem   ;}
-.fs18 {  font-size:1.8rem ;}
-.fs15 {  font-size:1.5rem ;}
+			.bold {  font-weight:700  ;}
+			.fs80 {  font-size:8rem   ;}
+			.fs60 {  font-size:6rem   ;}
+			.fs40 {  font-size:4rem   ;}
+			.fs36 {  font-size:3.6rem ;}
+			.fs32 {  font-size:3.2rem ;}
+			.fs24 {  font-size:2.4rem ;}
+			.fs20 {  font-size:2rem   ;}
+			.fs18 {  font-size:1.8rem ;}
+			.fs15 {  font-size:1.5rem ;}
 
 
-
-			.bold{font-weight:700;}
-            .fs80{font-size:8rem;}
-            .fs60{font-size:6rem;}
-            .fs40{font-size:4rem;}
-            .fs36{font-size:3.6rem;}
-            .fs32{font-size:3.2rem;}
-            .fs24{font-size:2.4rem;}
-            .fs20{font-size:2rem;}
-            .fs18{font-size:1.8rem;}
-			.fs15{font-size:1.5rem;}
 			
 
 /* ---------------- Colors ---------------- */
@@ -1155,10 +1144,8 @@ background-color:#fff !important;}
 /* ---------------- Tailles & Margins & Paddings ---------------- */
 
 			.h100vh{height:100vh;}
-			.h150p{height:150px;}
-
-
-			.lineh150p{line-height: 150px;}
+			/* .h100p-lg{height:0;}
+			.lineh100p-lg{line-height:0;} */
 
 
 
@@ -1256,6 +1243,12 @@ background-color:#fff !important;}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+
+			
+			.h100p{height:100px;}
+			.lineh100p{line-height: 100px;}
+			.nodisplay-sm{display:none;}
 			.split{
 				height: 51%;
 				width: 100%;
@@ -1278,7 +1271,19 @@ background-color:#fff !important;}
 				transform: rotate(0deg);
 				}
 
-		}
+			.w-1200, .w-20, .w-80, .w-100-sm { width: 100%; }
+			.w-80-sm { width: 80%; }
+			.d-block-sm { display: block; }
+			.h-auto {height: auto;}
+
+			.rotated {
+			writing-mode: unset;
+			transform: rotate(0); 
+			}
+
+			.p-contenu{padding:0;}
+
+}
 
 
 
