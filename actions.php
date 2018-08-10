@@ -5,7 +5,7 @@
 <section class="w-1200 m-auto d-flex d-block-sm jc-center">
 
     <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg">
-        <p class="rotated color-title playfair fs32 m-none txt-center ">LES ACTIONS</p>
+        <p class="rotated color-title playfair fs32 fs32-sm m-none txt-center ">LES ACTIONS</p>
     </div>
 
 
@@ -26,23 +26,24 @@
         </div>
     </div>
 
-    <div class="grid noDisplay-sm m-bot25p">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo.PNG" alt="img1" class="cell pinkBorder">      
-</div>
+    <div class="wrapper3x3 noDisplay-sm m-bot25p">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+   
+    </div>
 </section>
 
         <!-- Section agenda -->
 
 
-<section id="agenda" class="nodisplay-sm w-1200 marg-center d-flex d-block-sm flex-rowreverse nodisplay-sm m-top50p-sm bg-footer">
+<section id="agenda" class="nodisplay-sm w-1200 marg-center d-flex nodisplay-sm flex-rowreverse m-top50p-sm bg-footer">
 
         <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg">
         <p class="rotated color-title playfair fs32 fs32-sm m-none txt-center ">AGENDA</p>
@@ -53,11 +54,11 @@
 
         <!-- Entrepren'heureuses -->
 
-<section class="w-1200 marg-center d-flex d-block-sm nodisplay-sm m-top50p-sm bg-footer">
+<section class="w-1200 marg-center d-flex d-block-sm m-top50p-sm bg-header">
     <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg">
         <p class="rotated color-title playfair fs32 fs32-sm m-none txt-center ">LES ENTREPREN'HEUREUSES</p>
     </div>
-    <div class="w-80 w-100-sm center-sm">
+    <div class="w-100 center-sm">
 
         <div class="p-contenu w-80-sm m-top25p-sm m-auto">
             <h2 class="txt-center playfair fs36 fs40-sm m-none">Lorem Ipsum</h2>
@@ -71,12 +72,22 @@
             </p>
         </div>
 
-        <div class="w-80 m-auto lineh0 m-top25p-sm">
-            <!--  <img class="m-55 p-55" src="/wordpress/wp-content/themes/kelles-ernergies/img/mission.jpg" alt=""> -->
-            <img class="" src="<?php echo THEME_IMG_PATH; ?>/mission.JPG" alt="mission" class="w-80-sm" >
-        </div>
+        <div class="wrapper5x2 noDisplay-sm w-40 m-bot25p">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+       </div>
         
     </div>
+
+    
 </section>
 
 
@@ -84,7 +95,7 @@
         <!-- Section K'elles Café -->
 
 
-<section id="kelles_cafe" class="w-1200 marg-center d-flex d-block-sm flex-rowreverse nodisplay-sm m-top50p-sm">
+<section id="kelles_cafe" class="w-1200 marg-center d-flex d-block-sm flex-rowreverse nodisplay-sm m-top50p-sm bg-footer">
     <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg">
         <p class="rotated color-title playfair fs32 fs32-sm m-none txt-center ">K'ELLES CAFE</p>
     </div>
@@ -102,11 +113,22 @@
             </p>
         </div>
 
-        <div class="w-80 m-auto lineh0 m-top25p-sm">
-            <!--  <img class="m-55 p-55" src="/wordpress/wp-content/themes/kelles-ernergies/img/mission.jpg" alt=""> -->
-            <img class="" src="<?php echo THEME_IMG_PATH; ?>/mission.JPG" alt="mission" class="w-80-sm" >
+        <div class="d-flex w-100">
+            <div class="m-auto">
+                <div class="w-50 lineh0 m-top25p-sm ">
+                    <img class="w-60 w-80-sm" src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi" alt="mission">
+                </div>
+            </div>
+            <div class="m-auto">
+
+                <div class="w-50 wrapper2x2 noDisplay-sm m-bot25p">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+                </div>
+            </div>
         </div>
-        
     </div>
 </section>
 

@@ -1081,22 +1081,41 @@ background-color:#fff !important;}
 
 
 /* ---------------- Spécifiques ---------------- */
+			
 
+			/* Grilles */
+			.wrapper3x3 {
+				display: grid;
+				grid-template-columns: 100px 100px 100px;
+				grid-template-rows : 100px 100px;
+				grid-row-gap: 15px;
+				grid-column-gap: 15px;
+			}
 
+			.wrapper5x2{
+				display:grid;
+				grid-template-columns: 100px 100px 100px 100px 100px;
+				grid-template-rows : 100px 100px;
+				grid-row-gap: 15px;
+				grid-column-gap: 15px;
+			}
+
+			.wrapper2x2{
+				display:grid;
+				grid-template-columns: 100px 100px;
+				grid-template-rows: 100px 100px;
+				grid-row-gap: 15px;
+				grid-column-gap: 15px;
+			}
+  
 			.noDisplay-lg{display:none;}
 			.grid{display:flex;
 			flex-wrap:wrap;
 			justify-content: space-around;
 			}
-			.cell{flex: 0 0 32%;
-			padding:10px;
-			margin-top: 5px;}
-			.pinkBorder{border: #E4388C 1px solid;
-			}
-			img.cell.pinkBorder {
-				width: 50px;
-				height:120px;
-			}
+
+			.pinkBorder{border: #E4388C 1px solid;}
+			
 
 			#site-navigation a{font-size:1.4rem;}
 
