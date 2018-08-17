@@ -6,7 +6,8 @@
   <div class="split left">
     <div class="centered">
       <h2 class="rotated playfair h2-sm">
-        <a href="http://www.kelles-energies-bourgogne.fr/" class="nodeco color4">
+        <!-- <a href="http://www.kelles-energies-bourgogne.fr/" class="nodeco color4"> -->
+        <a href="http://localhost/wordpress_assoc/accueil/" class="nodeco color4">
         <span class="fs40 fs36-sm">K'ELLES&nbsp;ENERGIES</span>
 
           <br>

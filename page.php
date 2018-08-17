@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-
+<section class="color-footer">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main ">
 
@@ -34,7 +34,7 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	</section>
 <?php
-get_sidebar();
+
 get_footer();

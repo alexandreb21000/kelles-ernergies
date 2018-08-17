@@ -10,8 +10,11 @@
 get_header();
 ?>
 
+<section class="bgcolor1 w-1200 m-auto">
+
+
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main d-flex flex-col ai-center">
 
 		<?php
 		while ( have_posts() ) :
@@ -31,7 +34,9 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+</section>
 <?php
-get_sidebar();
+
+
+
 get_footer();
