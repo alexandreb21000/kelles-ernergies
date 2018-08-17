@@ -9,7 +9,7 @@
 
 ?>
 
-<article class="d-flex flex-col ai-center w-33" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="d-flex flex-col ai-center w-33 w-100-sm" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header playfair">
 		<?php
 		if ( is_singular() ) :
