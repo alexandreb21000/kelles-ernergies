@@ -2,7 +2,7 @@
 
 <?php get_header();?>
 
-<section class="w-1200 m-auto d-flex d-block-sm jc-center">
+<section class="w-1200 m-auto d-flex d-block-sm jc-center pad-header">
 
     <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg">
         <p class="rotated color-title playfair fs32 fs32-sm m-none txt-center ">LES ACTIONS</p>

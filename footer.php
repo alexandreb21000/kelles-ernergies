@@ -27,7 +27,7 @@
 		<div class="d-flex ai-end">
 			<div class="d-flex ai-center footer-sm">
 				<div>
-					<a class="nodeco" href="http://localhost/wordpress/politique-de-confidentialite/"><p>Mentions Légales</p></a>
+					<a class="nodeco" href="http://alexandreb.promo-18.codeur.online/politique-de-confidentialite/"><p>Mentions Légales</p></a>
 				</div>
 				<div>
 					<a href="https://www.facebook.com/KellesEnergies"><img class="social_media m-icon " src="<?php echo THEME_IMG_PATH; ?>/facebook_logo.jpg" alt="test"></a>
@@ -41,6 +41,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<button onclick="topFunction()" id="entete" title="Go to top">Top</button>
 </body>
 </html>

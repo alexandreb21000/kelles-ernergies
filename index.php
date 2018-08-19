@@ -99,7 +99,7 @@ get_header();
 		</main><!-- #main -->
 
 		<div class="d-flex  jc-center button-sm-center d-block-sm ">
-			<a class="nodeco w-33" href="http://localhost/wordpress/blog/"><div class="w-80-sm m-auto color-purple jc-center"> <!-- Renvoie sur la page blog avec le plugin pour afficher les anciens articles -->
+			<a class="nodeco w-33" href="http://alexandreb.promo-18.codeur.online/blog/"><div class="w-80-sm m-auto color-purple jc-center"> <!-- Renvoie sur la page blog avec le plugin pour afficher les anciens articles -->
 			<p class="color-title fs20 txt-center"> ANCIENS ARTICLES </p>
 	</div></a>
 		</div>

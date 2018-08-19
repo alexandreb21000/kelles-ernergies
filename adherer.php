@@ -5,7 +5,7 @@
 <?php get_header();
 ?>
 
-    <div class="w-1200 m-auto d-flex jc-center d-block-sm">
+    <div class="w-1200 m-auto d-flex jc-center d-block-sm pad-header">
 
         <div class="w-20 color-purple d-flex jc-center d-block-sm lineh100p h100p-lg lineh100p-lg">
             <p class="rotated color-title playfair fs32 m-none txt-center ">ADHERER</p>
