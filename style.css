@@ -599,8 +599,7 @@ a:hover, a:active {
 	clear: both;
 	display: block;
 	float: left;
-	
-	
+
 }
 
 .main-navigation ul {
@@ -608,6 +607,7 @@ a:hover, a:active {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	
 }
 
 .main-navigation ul ul {
@@ -617,6 +617,7 @@ a:hover, a:active {
 	top: 100%;
 	left: -999em;
 	z-index: 99999;
+	
 }
 
 .main-navigation ul ul ul {
@@ -627,6 +628,7 @@ a:hover, a:active {
 .main-navigation ul ul li:hover > ul,
 .main-navigation ul ul li.focus > ul {
 	left: 100%;
+	border-right: #444 solid 1px;
 }
 
 .main-navigation ul ul a {
@@ -644,14 +646,15 @@ a:hover, a:active {
 	margin-left: 20px;
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: 700;
-	font-size: 1.5rem
-	
+	font-size: 1.5rem;
+	border: none;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
 	color: #444;
+	
 
 }
 
@@ -659,11 +662,27 @@ a:hover, a:active {
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	color:white;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: auto;
+	margin-right: 10px;
 }
 
+.main-navigation.toggled ul li{
+	display: block;
+	color:white;
+	font-size: 1.5rem;
+	font-weight: 600;
+	border: #444 solid 1px;
+	padding: 10px;
+	margin-top: 10px;
+
+}
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
+		
 	}
 	.main-navigation ul {
 		display: block;
@@ -675,6 +694,7 @@ a:hover, a:active {
 .post-navigation {
 	margin: 0 0 1.5em;
 	overflow: hidden;
+	
 	
 }
 
@@ -966,7 +986,7 @@ hr {border-bottom: solid 2px #E4388C;}
 
 button {
 	background-color: #6C556F;
-	margin-top: 20px;
+	margin-right: 10px;
 	}
 
 .entry-meta a {
@@ -1371,19 +1391,39 @@ background-color:#fff !important;}
 	.none-sm {display:none;}
 	.button-sm-center {text-align: center;}
 	.pad-header {padding-top: 10px;}
+	.pad-bot {padding-bottom: 20px;}
 	.no-marge-sm {margin: 0;}
     .rotated {
         writing-mode: unset;
         transform: rotate(0); 
-    }
+	}
+	.footer-sm {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		margin: auto;
+	}
+	.m-icon {margin: 10px;}
 }
 
 @media all and (max-width: 960px){
     
 }
 
-@media all and (max-width: 1140px){
+@media (max-width: 768px) and (max-height: 1024px){
+	.padding-footer {padding:10px;}
+}
 
+/* Pour IPHONE 4 et 5 responsive block "les entrepren'heureuses" */ 
+@media (max-width: 320px) and (max-height: 568px){
+	.block-sm-title {
+		height: auto;
+		line-height: 41px;
+		padding: 10px;
+	}
+	.no-grid-img {
+		display: none;
+	}
 }
 
 
@@ -1442,5 +1482,4 @@ textarea
      margin-right: 20px;
      
 }
-
 

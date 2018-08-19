@@ -7,12 +7,12 @@ get_header();
 ?>
 
     <div class="w-1200 marg-center d-block-sm d-flex jc-center pad-header">
-        <div class="w-20 d-block-sm color-purple d-flex jc-center">
+        <div class="w-20 d-block-sm color-purple d-flex jc-center lineh100p h100p-lg lineh100p-lg">
             <p class="rotated color-title playfair fs32 m-none txt-center ">L'ASSOCIATION</p>
         </div>
 
         <div class="w-80 d-flex d-block-sm">
-            <div class="p-contenu">
+            <div class="p-contenu m-auto w-80-sm">
                 <h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
                 <p class="txt-center playfair fs24">Lorem Ipsum</p>
                 <hr width="40%">
@@ -33,7 +33,7 @@ get_header();
 
 
     <div class="w-1200 marg-center d-flex flex-rowreverse jc-center bg-footer d-block-sm">
-                    <div class="w-20 color-purple d-flex jc-center d-block-sm">
+                    <div class="w-20 color-purple d-flex jc-center d-block-sm lineh100p h100p-lg lineh100p-lg">
                         <p class="rotated color-title playfair fs32 m-none txt-center ">MISSION</p>
                     </div>
             <div class="w-80 d-flex ai-center m-button d-block-sm no-marge-sm">
@@ -42,7 +42,7 @@ get_header();
                     <img class="none-sm" src="<?php echo THEME_IMG_PATH; ?>/mission.JPG" alt="mission">
                 </div>
                 <div class=" w-80 d-flex ">
-                    <div class="p-contenu">
+                    <div class="p-contenu m-auto w-80-sm">
                         <h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
                         <p class="txt-center playfair fs24">Lorem Ipsum</p>
                         <hr width="40%">
@@ -61,11 +61,11 @@ get_header();
 
 
     <div class="w-1200 marg-center d-flex jc-center d-block-sm">
-                    <div class="w-20 color-purple d-flex jc-center">
+                    <div class="w-20 color-purple d-flex jc-center lineh100p h100p-lg lineh100p-lg">
                         <p class="rotated color-title playfair fs32 m-none txt-center ">ASSEMBLEES GENERALES</p>
                     </div>
             <div class="w-80 d-flex d-block-sm">
-                    <div class="p-contenu">
+                    <div class="p-contenu w-80-sm m-auto">
                         <h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
                         <p class="txt-center playfair fs24">Lorem Ipsum</p>
                         <hr width="40%">
@@ -91,11 +91,11 @@ get_header();
 
 
     <div class="w-1200 marg-center d-flex flex-rowreverse jc-center bg-footer d-block-sm">
-                    <div class="w-20 color-purple d-flex jc-center">
+                    <div class="w-20 color-purple d-flex jc-center lineh100p h100p-lg lineh100p-lg">
                         <p class="rotated color-title playfair fs32 m-none txt-center ">LE BUREAU</p>
                     </div>
             <div class="w-80 d-flex d-block-sm">
-                    <div class="p-contenu">
+                    <div class="p-contenu m-auto w-80-sm">
                         <h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
                         <p class="txt-center playfair fs24">Lorem Ipsum</p>
                         <hr width="40%">
@@ -118,11 +118,11 @@ get_header();
 
 
     <div class="w-1200 marg-center d-flex jc-center d-block-sm">
-                    <div class="w-20 color-purple d-flex jc-center">
+                    <div class="w-20 color-purple d-flex jc-center lineh100p h100p-lg lineh100p-lg">
                         <p class="rotated color-title playfair fs32 m-none txt-center ">PARTENAIRES</p>
                     </div>
             <div class="w-80 d-flex d-block-sm">
-                    <div class="p-contenu">
+                    <div class="p-contenu m-auto w-80-sm pad-bot">
                         <h2 class="txt-center playfair fs32">Ils nous font confiance</h2>
                             <p class="txt-justify noto fs15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
                             Vestibulum consequat commodo metus a mollis. Etiam at tellus eget ex imperdiet sagittis quis at ligula. 

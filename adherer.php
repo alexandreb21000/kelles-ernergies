@@ -7,11 +7,11 @@
 
     <div class="w-1200 m-auto d-flex jc-center d-block-sm">
 
-        <div class="w-20 color-purple d-flex jc-center d-block-sm">
+        <div class="w-20 color-purple d-flex jc-center d-block-sm lineh100p h100p-lg lineh100p-lg">
             <p class="rotated color-title playfair fs32 m-none txt-center ">ADHERER</p>
         </div>
-        <div class="w-80 d-flex d-block-sm">
-                <div class="p-contenu">
+        <div class="w-80  d-flex d-block-sm">
+                <div class="p-contenu w-80-sm m-auto">
                     <h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
                     <p class="txt-center playfair fs24">Lorem Ipsum</p>
                     <hr width="40%">
@@ -21,10 +21,11 @@
                     at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
                     Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
                     </p>
-                    
-                    <div class="w-33 m-auto color-purple w-250px jc-center">
+                    <a class="nodeco" href="https://www.helloasso.com/associations/k-elles-energies-bourgogne/adhesions/bulletin-d-adhesion">
+                    <div class="w-33 w-60 m-auto color-purple w-250px jc-center">
                         <p class="color-title fs20 txt-center">Bulletin d'adhesion</p>
                     </div>
+                    </a>
                 </div>
         </div><!-- #primary -->
         </div>
@@ -32,11 +33,11 @@
 
 
     <div class="w-1200 m-auto d-flex flex-rowreverse jc-center bgcolor1 d-block-sm">
-        <div class="w-20 color-purple d-flex jc-center">
+        <div class="w-20 color-purple d-flex jc-center lineh100p h100p-lg lineh100p-lg">
             <p class="rotated color-title playfair fs32 m-none txt-center ">FAIRE UN DON</p>
         </div>
         <div class="w-80 d-flex d-block-sm">
-            <div class="p-contenu">
+            <div class="p-contenu w-80-sm m-auto">
                 <h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
                 <p class="txt-center playfair fs24">Lorem Ipsum</p>
                 <hr width="40%">
@@ -58,11 +59,11 @@
 
 
     <div class="w-1200 m-auto d-flex jc-center d-block-sm">
-        <div class="w-20 color-purple d-flex jc-center d-block-sm">
+        <div class="w-20 color-purple d-flex jc-center d-block-sm lineh100p h100p-lg lineh100p-lg">
             <p class="rotated color-title playfair fs32 m-none txt-center ">NOUS AIDER</p>
         </div>
         <div class="w-80 d-flex d-block-sm">
-            <div class="p-contenu">
+            <div class="p-contenu m-auto w-80-sm">
                 <h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
                 <p class="txt-center playfair fs24">Lorem Ipsum</p>
                 <hr width="40%">

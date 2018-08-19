@@ -23,12 +23,12 @@ get_header();
 
 	<div class="w-1200 marg-center d-flex d-block-sm jc-center pad-header">
 
-		<div class="w-20 color-purple d-flex d-block-sm jc-center">
+		<div class="w-20 color-purple d-flex d-block-sm jc-center lineh100p h100p-lg lineh100p-lg">
 			<p class="rotated color-title playfair fs32 m-none txt-center ">K'ELLES ENERGIES</p>
 		</div>
 
 		<div class="w-80 d-flex d-block-sm">
-			<div class="p-contenu">
+			<div class="p-contenu m-auto w-80-sm">
 				<h2 class="txt-center playfair fs32">LOREM IPSUM</h2>
 				<p class="txt-center playfair fs24">Lorem Ipsum</p>
 				<hr width="40%">
@@ -41,7 +41,7 @@ get_header();
 				</p>
 			</div>
 			<div>
-				<img class="w-80-sm d-block" src="<?php echo THEME_IMG_PATH; ?>/intro_home2.jpg" alt="intro_home">
+				<img class="w-80-sm d-block m-auto" src="<?php echo THEME_IMG_PATH; ?>/intro_home2.jpg" alt="intro_home">
 				<!-- <img class="d-block" src="/wordpress/wp-content/themes/kelles-energies/img/intro_home.jpg" alt=""> -->
 			</div>
 		</div>
@@ -51,7 +51,7 @@ get_header();
 	<div class="w-1200 marg-center d-flex jc-center flex-col bg-footer">
 
 		<div class="w-100 d-flex  d-block-sm flex-rowreverse block-sm w-100-sm">
-		<div class="w-20 color-purple d-flex jc-center">
+		<div class="w-20 color-purple d-flex jc-center lineh100p h100p-lg lineh100p-lg">
 				<p class="rotated color-title playfair fs32 m-none txt-center ">ACTUALITE</p>
 			</div>
 
@@ -59,7 +59,7 @@ get_header();
 
 	
 
-
+			<!-- Affiches les 2 articles de la page. Modif directement sur Wordpress -->
 		<main id="main" class="d-block-sm site-main d-flex txt-center color1 nodeco mb-button m-article jc-center ai-center">
 		<?php  
 			get_sidebar();
@@ -98,12 +98,10 @@ get_header();
 		
 		</main><!-- #main -->
 
-		<div class="d-flex jc-center button-sm-center d-block-sm">
-			<button class="w-button m-button">
-			<?php
-				the_posts_navigation();
-			?>
-			</button>
+		<div class="d-flex  jc-center button-sm-center d-block-sm ">
+			<a class="nodeco w-33" href="http://localhost/wordpress/blog/"><div class="w-80-sm m-auto color-purple jc-center"> <!-- Renvoie sur la page blog avec le plugin pour afficher les anciens articles -->
+			<p class="color-title fs20 txt-center"> ANCIENS ARTICLES </p>
+	</div></a>
 		</div>
 
 		</div><!-- #primary -->
@@ -116,12 +114,12 @@ get_header();
 
 	<div class="w-1200 d-block-sm  marg-center d-flex jc-center ">
 
-		<div class="w-20 color-purple d-flex jc-center d-block-sm">
+		<div class="w-20 color-purple d-flex jc-center d-block-sm lineh100p h100p-lg lineh100p-lg">
 
 			<p class="rotated color-title playfair fs32 m-none txt-center ">REVUES DE PRESSE</p>
 		</div>
 		<div class="w-80 d-flex d-block-sm">
-			<div class="p-contenu">
+			<div class="p-contenu m-auto w-80-sm">
 				<h2 class="txt-center playfair fs32">C'est la partie avec les articles</h2>
 				<p class="txt-center playfair fs24">Lorem Ipsum</p>
 				<hr width="40%">
