@@ -21,11 +21,13 @@
                     at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
                     Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
                     </p>
-                    <a class="nodeco" href="https://www.helloasso.com/associations/k-elles-energies-bourgogne/adhesions/bulletin-d-adhesion">
-                    <div class="w-33 w-60 m-auto color-purple w-250px jc-center">
-                        <p class="color-title fs20 txt-center">Bulletin d'adhesion</p>
+                    <div class="d-flex jc-center button-sm-center d-block-sm bg-header">
+                        <a class="nodeco w-33 btn-shadow zoom" href="https://www.helloasso.com/associations/k-elles-energies-bourgogne/adhesions/bulletin-d-adhesion">
+                            <div class=" w-80-sm m-auto jc-center">
+                                <p class="color3 fs20 txt-center playfair">Bulletin d'adhesion</p>
+                            </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
         </div><!-- #primary -->
         </div>
