@@ -13,8 +13,8 @@ get_header();
                 <p class="rotated color-title playfair fs32 m-none txt-center ">CONTACT</p>
             </div>
            
-            <div class="w-80 d-flex jc-center">
-                    <div class="d-block-sm marg-contact">
+            <div class="w-80 d-flex jc-center bg-footer">
+                    <div class="d-block-sm marg-contact playfair">
                         
                         <?php echo do_shortcode( '[contact-form-7 class="w-80-sm" id="179" title="Contact form 1"]' ); ?>
                        
