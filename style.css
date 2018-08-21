@@ -1056,7 +1056,7 @@ button {
 
 .margtop      {  margin-top: 10px           ;}
 .marg-bull    {  margin-top: 40px           ;}
-
+.marg-shadow  {  margin: 0 auto 10px        ;}
 .m-header     {  margin : 0 60px 0 60px     ;}
 .m-icon       {  margin : 0 60px            ;}
 .m-article    {  margin-top : 35px          ;}
@@ -1486,7 +1486,7 @@ textarea
     background-color: #fff;
     border: none;
     color: #000;
-
+	width:100%
     
 }
 /* Contact Form 7 Submit Button
