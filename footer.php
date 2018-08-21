@@ -41,6 +41,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<button onclick="topFunction()" id="entete" title="Go to top">Top</button>
+<button class="dis-button" onclick="topFunction()" id="entete" title="Go to top"><i class="fas fa-arrow-up fa-2x"></i>
+</button>
 </body>
 </html>

@@ -9,34 +9,34 @@
     </div>
 
 
-    
-    <div class="w-60 w-100-sm center-sm">
+    <div class="w-80 d-flex d-block-sm">
+        <div class="w-60 w-100-sm center-sm">
 
-    
-        <div class="p-contenu w-80-sm m-top25p-sm m-auto">
-            <h2 class="txt-center playfair fs36 fs40-sm m-none">Lorem Ipsum</h2>
-            <p class="txt-center playfair fs24 m-none">Lorem Ipsum</p>
-            <hr class="w-40">
-            <p class="txt-justify noto fs15 w-80 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
-            Vestibulum consequat commodo metus a mollis. Etiam at tellus eget ex imperdiet sagittis quis at ligula. 
-            Nulla sit amet nisl nunc. Nullam placerat ipsum id purus aliquet feugiat. Integer tempor felis libero, 
-            at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
-            Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
-            </p>
+            <div class="p-contenu w-80-sm m-top25p-sm m-auto">
+                <h2 class="txt-center playfair fs36 fs40-sm m-none">Lorem Ipsum</h2>
+                <p class="txt-center playfair fs24 m-none">Lorem Ipsum</p>
+                <hr class="w-40">
+                <p class="txt-justify noto fs15 w-80 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam nec purus egestas pretium vel sit amet lectus.
+                Vestibulum consequat commodo metus a mollis. Etiam at tellus eget ex imperdiet sagittis quis at ligula. 
+                Nulla sit amet nisl nunc. Nullam placerat ipsum id purus aliquet feugiat. Integer tempor felis libero, 
+                at tristique turpis aliquet vel. Nulla facilisi. Duis blandit nisl sit amet nunc lobortis sodales.
+                Quisque cursus at ex in elementum. Quisque eu lectus et arcu vulputate commodo viverra a ipsum. Maecenas eu elit tellus. 
+                </p>
+            </div>
+
         </div>
-    </div>
 
-    <div class="wrapper3x3 jc-center pad-header m-bot25p no-grid-img">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-        <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
-   
+        <div class="wrapper3x3 jc-center pad-header m-bot25p no-grid-img">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+            <img src="<?php echo THEME_IMG_PATH; ?>/logo_Kelles_Cafe_200dpi.PNG" alt="img1" class="pinkBorder">
+        </div>
     </div>
 </section>
 
@@ -61,7 +61,7 @@
     <div class="w-20 color-purple d-flex jc-center h100p lineh100p h100p-lg lineh100p-lg block-sm-title">
         <p class="rotated color-title playfair fs32 fs32-sm m-none txt-center ">LES ENTREPREN'HEUREUSES</p>
     </div>
-    <div class="w-100 center-sm d-flex flex-col jc-center">
+    <div class="w-80 center-sm d-flex flex-col jc-center">
 
         <div class="p-contenu w-80-sm m-top25p-sm m-auto pad-bot">
             <h2 class="txt-center playfair fs36 fs40-sm m-none">Lorem Ipsum</h2>
